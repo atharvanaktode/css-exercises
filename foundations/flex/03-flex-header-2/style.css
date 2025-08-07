@@ -12,6 +12,15 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-image {
@@ -23,6 +32,7 @@ body {
 }
 
 .logo {
+  padding: 8px;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -45,4 +55,8 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
 }
